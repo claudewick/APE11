@@ -12,6 +12,8 @@ Versionamento, ou controle de versão, é uma técnica de gerenciamento das alte
 
 3. Por que utilizar o Git como controle de versionamento?
 
+O controle de versionamento já um default na indústria de softwares, de modo que não o utilizar sequer chega a ser uma opção. Assim, cabe ao desenvolvedor utilizar o sistema de versionamento que é o padrão escolhido pela empresa e neste caso, a maior probabilidade é de que seja o Git, pois esta ferramenta detém mais de 70% do market share. Caberá, portanto, aos desenvolvedores independentes escolher qual ferramenta de versionamento utilizar, sendo que as mais utilizadas são o Git e o SVN. No entanto, cabe salientar que o Git, além das características já informadas, possui integração com o Github, permitindo a participação remota de outras pessoas no processo de desenvolvimento.
+
 4. Quais as vantagens do Git?
 
 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
