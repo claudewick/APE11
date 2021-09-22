@@ -8,6 +8,8 @@ Git é uma ferramenta. Foi desenvolvida em 2005, por Linus Torvalds, o criador d
 
 2. O que é versionamento de software?
 
+Versionamento, ou controle de versão, é uma técnica de gerenciamento das alterações ocorridas em um repositório, que pode conter arquivos de texto, documentos, código-fonte ou uma mistura de vários tipos diferentes de arquivos. O versionamento permite registrar as alterações ocorridas no repositório e as modificações individuais realizadas em qualquer dos arquivos incluídos nele, permitindo ainda identificar quando e como as alterações ocorreram em cada arquivo, fazer a comparação entre diferentes versões, a recuperação de arquivos excluídos, desfazer alterações e até realizar o retorno a versões anteriores. O versionamento não apenas protege os arquivos do projeto, mas também permite documentar todo o histórico dessas alterações.
+
 3. Por que utilizar o Git como controle de versionamento?
 
 4. Quais as vantagens do Git?
