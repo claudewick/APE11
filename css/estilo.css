@@ -1,0 +1,95 @@
+body {
+  background: #ccc url("../img/corrugation_@2X.png");
+  }
+.topo{
+  height: 250px;
+  background-color: lightblue;
+  text-align: center;
+  width: 100%;
+  font-family: Open Sans Condensed;
+  font-size: 120px;
+  box-sizing: border-box;
+}
+.topo h1{
+  padding: 50px;
+  color: #88aaaa;
+  text-transform: uppercase;
+}
+.menu{
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  background-color: #3c3c3c;
+  padding: 15px;
+  text-align: center;
+}
+.menu a{
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #dddddd;
+  font-family: Crimson Text;
+}
+.principal{
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  line-height: 1.5;
+}
+.principal p{
+    text-indent: 50px;
+}
+.principal h1{
+  height: 40px;
+  width: 100%;
+  font-size: 30px;
+  font-family: "Open Sans Condensed";
+  color: #3c3c3c;
+  font-weight: bold;
+  text-align: center;
+}
+.principal h2{
+  height: 30px;
+  font-size: 20px;
+  font-family: "Open Sans Condensed"
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 5px;
+  text-indent: 50px;
+}
+#imagem1 {
+  box-sizing: border-box;
+  height: 250px;
+  float: left;
+  margin: 20px;
+  border: solid 3px #080808;
+  border-radius: 0.3rem;
+}
+#imagem2 {
+  box-sizing: border-box;
+  height: 250px;
+  float: right;
+  margin: 20px;
+  border: solid 3px #080808;
+  border-radius: 0.3rem;
+}
+.clearfix{
+  clear: both;
+  border-bottom: 1px solid gray;
+  margin: 20px; 0px;
+}
+.rodape {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	height: 30px;
+	background-color: #3c3c3c;
+	width: 100%
+}
+.rodape p {
+	font-family: Open Sans Condensed;
+	color: #88aaaa;
+	text-align: right;
+}

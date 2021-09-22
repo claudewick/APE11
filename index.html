@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>APE 11 - GIT</title>
+    <link rel="icon" href="img/Git-Icon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+  </head>
+  <body>
+    <header class="topo">
+      <h1 class="topo">APE 11 - GIT</h1>
+    </header>
+    <div class="menu">
+      <a href="index.html">Home</a> |
+      <a href="comandos.html">Principais Comandos do Git</a>  |
+      <a href="link.html">Links Úteis</a>  |
+    </div>
+    <div class="principal">
+        <h2><b>Para que serve o commit e qual a melhor forma de utilizá-lo?</b></h2><br>
+        <p>O Git faz uso do sistema de três estados, sendo eles os estados modificado, preparado e consolidado. O commit é o comando dado para passar o repositório do estado preparado para o estado consolidado. Nele é tirado um snapshot do projeto e de seus arquivos, salvando estas informações no repositório local. Commits sucessivos no mesmo repositório são ligados entre si por uma conexão do tipo “pai-filho”. A melhor forma de utilizá-lo é realizando-o sempre que forem feitas alterações importantes e usando sempre o atributo “-m” seguido de uma mensagem que identifique as alterações feitas no projeto, de modo que possa ser possível identificar rapidamente este commit, diferenciando-o dos demais, ao consultar o log. </p><br>
+        <h2><b>Qual a diferença entre commit e push?</b></h2><br>
+        <p>Conforme já mencionado, commit é o comando dado para passar o repositório do estado preparado para o estado consolidado, salvando no repositório local as informações relativas às alterações do projeto e de seus arquivos. Já o push é o comando que pega o último commit feito e o envia para um servidor remoto, na nuvem, de modo que ele não fique restrito à máquina local, sirva como cópia de segurança e também permite o acesso de outros membros da equipe ao repositório, desde que autorizados.</p><br>
+        <h2><b>O que é tag?</b></h2><br>
+        <p>A tag é um comando git que adiciona um rótulo descritivo a um determinado commit. Funciona como uma espécie de etiqueta que se cola a um commit, permitindo, além de diferenciá-lo dos demais commits, acrescentar anotações ou outras informações referentes a este commit específico. Tags são ferramentas muito úteis para a marcação de versões, especialmente quando combinadas ao versionamento semântico.</p><br>
+        <h2><b>O que é uma branch?</b></h2><br>
+        <p>Um branch é uma ramificação do projeto. É normalmente utilizado quando se vai desenvolver uma nova funcionalidade no projeto, assim, não se mistura a versão principal com uma ainda em desenvolvimento, que pode ser instável ou possuir conflitos que coloquem em risco o funcionamento do projeto principal. Uma vez concluído o desenvolvimento da nova funcionalidade na ramificação, se aprovada, ela pode ser reintroduzida, ou fundida, com a versão principal, por meio de operação de merge.</p><br>
+        <h2><b>Como resolver possíveis conflitos no Git?</b></h2><br>
+        <p>Os conflitos podem surgeir em dois momentos, durante a operação de merge, quando são identificados pelo próprio git, cabendo ao desenvolvedor resolver todos os conflitos antes de poder prosseguir com o projeto. Também podem surgir após o merge, por meio de falhas na execução do software. Neste caso, o git pode ser utilizado para ajudar a solucionar os conflitos, por meio da comparação entre versões, que permita identificar dentre os pontos alterados, quais podem estar causando os conflitos, seja utilizando-se do comando checkout para retornar até uma versão anterior estável.</p>
+    </div>
+    <footer class="rodape">
+      <p>&copy; Claude Antoine Wickihalder</p>
+    </footer>
+  </body>
+</html>
