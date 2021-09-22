@@ -20,4 +20,6 @@ Do ponto de vista do desenvolvedor, o Git ser uma ferramenta gratuita, estável 
 
 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
 
+A importância e a utilidade podem variam tratando-se de o desenvolvimento de um software por um único programador, tal como um projeto pessoal, ou do desenvolvimento por uma equipe. No caso de um programador solo a vantagem será mais restrita ao histórico de alterações e possibilidade de retorno a uma versão anterior, enquanto outras funcionalidades ganham maior destaque no caso de equipes, como a possibilidade de fundir (merge) duas versões diferentes, alteradas por integrantes distintos, gerando um único código consolidado.  Além disso, o controle de versão permite evitar a duplicação desnecessária de arquivos e desfazer alterações que se mostrarem problemáticas ou que não trazem as melhorias necessárias.
+
 6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
