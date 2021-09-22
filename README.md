@@ -16,6 +16,8 @@ O controle de versionamento já um default na indústria de softwares, de modo q
 
 4. Quais as vantagens do Git?
 
+Do ponto de vista do desenvolvedor, o Git ser uma ferramenta gratuita, estável e de software livre já representa uma grande vantagem, porém há outras. O modelo de repositórios distribuídos entrega grande performance aos seus usuários, especialmente nas ações de branching e merging. É importante também mencionar a segurança, pois o Git utiliza-se de criptografia para realizar o versionamento, de modo a garantir a integridade e confiabilidade das informações armazenadas. Outra vantagem, já mencionada, é a integração do Git com a plataforma Github, que além de um repositório em nuvem, também funciona como uma rede social de desenvolvedores de software.
+
 5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
 
 6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
