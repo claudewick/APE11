@@ -59,22 +59,6 @@ body {
   margin: 5px;
   text-indent: 50px;
 }
-#imagem1 {
-  box-sizing: border-box;
-  height: 250px;
-  float: left;
-  margin: 20px;
-  border: solid 3px #080808;
-  border-radius: 0.3rem;
-}
-#imagem2 {
-  box-sizing: border-box;
-  height: 250px;
-  float: right;
-  margin: 20px;
-  border: solid 3px #080808;
-  border-radius: 0.3rem;
-}
 .clearfix{
   clear: both;
   border-bottom: 1px solid gray;
@@ -92,4 +76,29 @@ body {
 	font-family: Open Sans Condensed;
 	color: #88aaaa;
 	text-align: right;
+}
+table {
+    border: 3px;
+    border-style: solid;
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+    font-style: normal;
+    font-size: 25px;
+  
+}
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    border: 3px;
+    border-style: solid;
+    border-color: inherit;
+    padding: 5px;
+   
 }

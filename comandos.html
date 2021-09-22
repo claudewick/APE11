@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>APE 11 - GIT</title>
+    <link rel="icon" href="img/Git-Icon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700">
+  </head>
+  <body>
+    <header class="topo">
+      <h1 class="topo">APE 11 - GIT</h1>
+    </header>
+    <div class="menu">
+      <a href="index.html">Home</a> |
+      <a href="comandos.html">Principais Comandos do Git</a>  |
+      <a href="link.html">Links Úteis</a>  |
+    </div>
+    <div class="principal">
+        <table>
+            <thead>
+                <tr>
+                    <th>Comando</th>
+                    <th>Função</th>
+                    <th>Sintaxe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>GIT INIT </td>
+                    <td> criar um repositório, deve ser digitado na pasta onde se quer criar </td>
+                    <td>git init</td>
+                </tr>
+                <tr>
+                    <td>GIT STATUS </td>
+                    <td> verificar o status atual do repositório</td>
+                    <td>git status</td>
+                </tr>
+                <tr>
+                    <td>GIT ADD </td>
+                    <td> Adiciona os arquivos ao estado preparado</td>
+                    <td>git add (nome do arquivo) ou git add *.* (neste caso adiciona todos os arquivos)</td>
+                </tr>
+                <tr>
+                    <td>GIT COMMIT </td>
+                    <td> salva no repositório os arquivos que estavam no estado preparado, levando-os para o estado consolidado</td>
+                    <td>git commit -m (mensagem identificando quais as alterações realizadas)</td>
+                </tr>
+                <tr>
+                    <td>GIT LOG </td>
+                    <td> mostra o registro de todos os commits já efetuados</td>
+                    <td>git log</td>
+                </tr>
+                <tr>
+                    <td>GIT CHECKOUT </td>
+                    <td> retorna um arquivo ou todo o repositório à qualquer commit anterior</td>
+                    <td>git checkout (hash do commit) (nome do arquivo – opcional)</td>
+                </tr>
+                <tr>
+                    <td>GIT BRANCH </td>
+                    <td> cria uma nova ramificação do repositório</td>
+                    <td>git branch (nome do branch)</td>
+                </tr>
+                <tr>
+                    <td>GIT MERGE </td>
+                    <td> fundir dois branches em um</td>
+                    <td>git merge (nome do branch secundário) </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <footer class="rodape">
+      <p>&copy; Claude Antoine Wickihalder</p>
+    </footer>
+  </body>
+</html>
