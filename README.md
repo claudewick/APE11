@@ -4,6 +4,8 @@ Atividade de Projeto Estruturado 11 - Unipar EAD
 
 1. O que é Git?
 
+Git é uma ferramenta. Foi desenvolvida em 2005, por Linus Torvalds, o criador do Linux, igualmente nos mesmos moldes de software livre e para auxiliar no desenvolvimento do próprio sistema operacional. Sua função é realizar o controle de versão de arquivos em um projeto. O Git não foi o primeiro software para versionamento e não é o único do mercado, embora seja o mais usado. Seu diferencial, além de ser um software livre, gratuito e estável, é utilizar-se do modelo de repositórios distribuídos, de modo que é possível de ser usado mesmo quando a estação de trabalho não está conectada à internet ou a um servidor local.
+
 2. O que é versionamento de software?
 
 3. Por que utilizar o Git como controle de versionamento?
