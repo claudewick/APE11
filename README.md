@@ -23,3 +23,8 @@ Do ponto de vista do desenvolvedor, o Git ser uma ferramenta gratuita, estável 
 A importância e a utilidade podem variam tratando-se de o desenvolvimento de um software por um único programador, tal como um projeto pessoal, ou do desenvolvimento por uma equipe. No caso de um programador solo a vantagem será mais restrita ao histórico de alterações e possibilidade de retorno a uma versão anterior, enquanto outras funcionalidades ganham maior destaque no caso de equipes, como a possibilidade de fundir (merge) duas versões diferentes, alteradas por integrantes distintos, gerando um único código consolidado.  Além disso, o controle de versão permite evitar a duplicação desnecessária de arquivos e desfazer alterações que se mostrarem problemáticas ou que não trazem as melhorias necessárias.
 
 6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
+
+Muito embora o Git tenha um amplo domínio do mercado, ele não é o único software de controle de versão. Como seus concorrentes podemos citar:
+	- CVS: foi a primeira ferramenta, surgindo em 1968 e, apesar de antiga, tem como principal vantagem ser uma ferramenta de fácil utilização;
+	- TFS: é a ferramenta desenvolvida pela Microsoft. Tem como diferenciais a possibilidade de utilização nas modalidades centralizada ou distribuída e a integração com os produtos do Office da própria Microsoft;
+	- Mercurial: funciona com controle de versionamento distribuído. É rápida e atende bem a equipes grandes e é utilizada por grandes empresas como o Facebook. 
